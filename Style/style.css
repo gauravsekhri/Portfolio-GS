@@ -481,7 +481,7 @@ html {
 }
 
 .blog_text{
-    margin-top: 12px;
+    margin-top: 30px;
     color: grey;
 }
 
@@ -722,6 +722,7 @@ html {
     .blog_container_in{
         padding: 0px;
         display: block;
+        width: 90%;
     }
 
     .featured_blog1, .featured_blog2{
@@ -732,11 +733,16 @@ html {
     }
 
     .blog_head{
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .blog_text{
         font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .moreblogs{
+        padding: 30px 0px 10px 0px;
     }
 
 }
