@@ -317,9 +317,13 @@ html {
     align-self: right;
     float: right;
     background-color: transparent;
-    color: white;
+    color: rgba(255, 255, 255, 0.822);
     font-family: "Poppins", sans-serif;
-    padding: 35px 37px 15px 15px;
+    padding: 35px 37px 35px 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -671,13 +675,14 @@ html {
 
     .about_imgbox{
         width: 30%;
-        padding-left: 10px;
+        padding-left: 20px;
+        padding-top: 60px;
     }
 
     .about_desc{
         width: 70%;
-        font-size: 10px;
-        padding-left: 30px;
+        font-size: 13px;
+        padding: 15px 40px 40px 40px;
     }
 
     .container{
