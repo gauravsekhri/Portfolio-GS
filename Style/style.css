@@ -145,15 +145,26 @@ html {
     margin-left: 8%;
     background-color: transparent;
     padding: 5px 8px;
-    color: white;
-    border: 1px solid white;
+    color: #fff;
+    border: 1px solid #fff;
     font-weight: 500;
+    text-decoration: none;
+}
+
+.abtme a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .block1 .abtme:hover {
     background-color: #F94D57;
     border: 1px solid #f94d563b;
-    color: black;
+    color: #fff;
+}
+
+.abtme a:hover{
+    text-decoration: none;
+    color: #000;
 }
 
 .icon-bar1 {
