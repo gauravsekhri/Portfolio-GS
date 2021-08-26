@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>AI/ML Projects</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="form-validation.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbars/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/"> -->
+    <!-- Custom styles for this template -->
+    <!-- <link href="album.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
+    <link href="../Style/projectstyle.css" rel="stylesheet">
+    <link href="../Style/navbarstyle.css" rel="stylesheet">
+
+    <style>
+
+    #logo{
+      font-size: 2.5em;
+      margin: 0 0 0 20px;
+    }
+
+    body{
+      /* background-color: #161623; */
+      /* background-color: #1f1f36; */
+      /* background-color: #262646; */
+      /* background-color: #fff; */
+      background-color: #212529;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .card-img-top rect{
+      background: transparent;
+      border-radius: 15px;
+    }
+
+    </style>
+
+  </head>
+
+  <body onload="myfunc()">
+
+    <div class="loader_beg" id="loadpg">
+      <div class="loader" id="loading"></div>
+      <div class="load_text">Gaurav <br> Sekhri</div>
+    </div>
+
+    <header>
+        <nav
+			class="navbar navbar-expand-xl navbar-dark"
+			id="navbar"
+			style="font-family: 'Poppins', sans-serif; font-weight: 700; background-color: #000">
+
+			<a class="navbar-brand" id="logo" href="../index.html">GS</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExample06">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" id="home_but" href="../index.html">Home </a>
+					</li>
+
+					<!-- <li class="nav-item">
+            		<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="false">Contact</a>
+                </li>  -->
+                
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#aboutsection">About <span class="sr-only">(current)</span></a>
+          </li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle active"
+							href="#" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Projects
+						</a>
+
+						<div class="dropdown-menu" aria-labelledby="dropdown06">
+							<a class="dropdown-item" href="#">Artificial Intelligence</a>
+							<a class="dropdown-item" href="webdev.html">Web Development</a>
+							<!-- <a class="dropdown-item" href="#">Other</a> -->
+							<!-- <a class="dropdown-item" href="#">Flask</a>
+							<a class="dropdown-item" href="#">Something else here</a> -->
+						</div>
+					</li>
+
+					<li class="nav-item" style="float: right;">
+						<a class="nav-link" href="blogs.html">Blogs</a>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+    </header>
+
+
+    <div class="allcards">
+      <h1 class="fptop">AI / ML</h1>
+      <div class="container">
+        <div class="row">
+
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="rgba(255,255,255,0.4)"/><text x="20%" y="50%" dy=".3em">Image Classification using CNN</text></svg> -->
+              <h1>Image Classification using CNN</h1>
+              <br>
+              <!-- <p>It is very nice project using machine learning and artificial intelligence.</p> -->
+              <div class="card-body">
+                <p class="card-text">Trained a CNN model using 200 images of car & plane each. The model is able to successively distinguish between them. </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm"><a href="https://github.com/gauravsekhri/Image-Classification-Using-CNN">View Project</a></button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="rgba(255,255,255,0.4)"/><text x="20%" y="50%" dy=".3em">Image Classification using CNN</text></svg> -->
+              <h1>Face Detection using OpenCV (Python)</h1>
+              <br>
+              <!-- <p>It is very nice project using machine learning and artificial intelligence.</p> -->
+              <div class="card-body">
+                <p class="card-text">Used haarcascade xml file that helps in detecting the faces in any image. It can also detect multiple faces in an image.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm"><a href="https://github.com/gauravsekhri/Face-Detection-using-OpenCV">View Project</a></button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="rgba(255,255,255,0.4)"/><text x="20%" y="50%" dy=".3em">Image Classification using CNN</text></svg> -->
+              <h1>Bengaluru House Price Prediction (Python)</h1>
+              <br>
+              <!-- <p>It is very nice project using machine learning and artificial intelligence.</p> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm"><a href="https://github.com/gauravsekhri/Bengaluru-House-Price-Prediction">View Project</a></button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="rgba(255,255,255,0.4)"/><text x="20%" y="50%" dy=".3em">Image Classification using CNN</text></svg> -->
+              <h1>Boston House Price Prediction (Python)</h1>
+              <br>
+              <!-- <p>It is very nice project using machine learning and artificial intelligence.</p> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm"><a href="https://github.com/gauravsekhri/Boston-House-Price-Prediction">View Project</a></button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="rgba(255,255,255,0.4)"/><text x="20%" y="50%" dy=".3em">Image Classification using CNN</text></svg> -->
+              <h1>Diabetes Analysis and Prediction (Python)</h1>
+              <br>
+              <!-- <p>It is very nice project using machine learning and artificial intelligence.</p> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm"><a href="https://github.com/gauravsekhri/Diabetes-Analysis-and-Prediction">View Project</a></button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="rgba(255,255,255,0.4)"/><text x="20%" y="50%" dy=".3em">Image Classification using CNN</text></svg> -->
+              <h1>Titanic Survival Prediction (Python)</h1>
+              <br>
+              <!-- <p>It is very nice project using machine learning and artificial intelligence.</p> -->
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm"><a href="https://github.com/gauravsekhri/Titanic-Survival-Prediction">View Project</a></button>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button> -->
+                  </div>
+                  <!-- <small class="text-muted">9 mins</small> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer class="text-muted">
+      <div class="container" id="foot">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Gaurav Sekhri &copy; Copyright 2021 </p>
+        <!-- <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p> -->
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="../script.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+    <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
+
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script> -->
+
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
+
+    <!-- <script src="form-validation.js"></script> -->
+
+    <!-- <script src="https://getbootstrap.com/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+
+    <script src="https://getbootstrap.com/docs/5.0/examples/checkout/form-validation.js"></script>
+
+  </body>
+</html>

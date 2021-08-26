@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Portfolio | Gaurav Sekhri</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="form-validation.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbars/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/checkout/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="Style/style.css" rel="stylesheet">
+    <link href="Style/navbarstyle.css" rel="stylesheet">
+
+    <style>
+
+    #logo{
+      font-size: 2.5em;
+      margin: 0 0 0 20px;
+    }
+
+    body{
+      /* background-color: #161623; */
+      /* background-color: #1f1f36; */
+      /* background-color: #262646; */
+      /* background-color: #fff; */
+      background-color: #212529;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .card-img-top rect{
+      background: transparent;
+      border-radius: 15px;
+    }
+
+    </style>
+
+  </head>
+
+  <body onload="myfunc()">
+
+    <div class="loader_beg" id="loadpg">
+      <div class="loader" id="loading"></div>
+      <div class="load_text">Gaurav <br> Sekhri</div>
+    </div>
+
+    <header>
+        <nav
+			class="navbar navbar-expand-xl navbar-dark"
+			id="navbar"
+			style="font-family: 'Poppins', sans-serif; font-weight: 700; background-color: #000">
+
+			<a class="navbar-brand" id="logo" href="#">GS</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExample06">
+
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" id="home_but" href="index.html">Home </a>
+					</li>
+                
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutsection" >About <span class="sr-only">(current)</span></a>
+          </li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle"
+							href="#" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Projects
+						</a>
+
+						<div class="dropdown-menu" aria-labelledby="dropdown06">
+							<a class="dropdown-item" href="Pages/artificial.html">Artificial Intelligence</a>
+							<a class="dropdown-item" href="Pages/webdev.html">Web Development</a>
+						</div>
+					</li>
+
+					<li class="nav-item" style="float: right;">
+						<a class="nav-link" href="Pages/blogs.html">Blogs</a>
+					</li>
+
+				</ul>
+			</div>
+		</nav>
+    </header>
+
+    <div class="first_block">
+
+        <div class="block1">
+            <br>
+            <h2>Hello, I'm</h2>
+            <h1>Gaurav Sekhri</h1>
+            <p>B.Tech (CSE) Graduate</p>
+            <button class="abtme">About Me</button>
+
+            <div class="icon-bar1">
+              <a href="https://www.linkedin.com/in/gaurav-sekhri/" id="linkedin"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/gauravsekhri" id="github"><i class="fab fa-github"></i></a>
+              <a href="" id="gmail"><i class="far fa-envelope"></i> <div class="emailaddress">gauravsekhri69@gmail.com</div> </a>
+              <a href="" id="kaggle"><i class="fab fa-kaggle"></i></a>
+            </div>
+
+        </div>
+
+        <div class="block2">
+            <img class="boyfull" src="Images/boy1.jpg" width=300>
+            <img class="boyhalf" src="Images/boyhalf.jpg">
+        </div>
+
+    </div>
+
+    <div class="icons_short">
+      <div class="icon-bar2">
+        <a href="" id="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="" id="github"><i class="fab fa-github"></i></a>
+        <a href="" id="gmail"><i class="far fa-envelope"></i></a>
+        <a href="" id="kaggle"><i class="fab fa-kaggle"></i></a>
+      </div>
+    </div>
+
+    <div class="about_title" id="aboutsection" >
+      <h1>About Me</h1>
+    </div>
+
+    <div class="aboutme">
+      <div class="about_outer">
+
+        <div class="about_imgbox">
+
+          <img src="Images/4.png" class="abtimg">
+          <img src="Images/ch.png" class="abtimg_sml">
+
+        </div>
+
+        <div class="about_desc">
+          <p>La empresa editora y su sociedad de control Prensa Ibérica Media, S.L., así como otras empresas con las que trabajamos, almacenamos y accedemos a información no sensible de su dispositivo, como cookies y otros identificadores, para personalizar la publicidad y el contenido en base a sus hábitos de navegación y perfiles de interés, que adicionalmente pueden ser compartidos con terceros. Algunas de las empresas con las que trabajamos procesan la información derivada de cookies y otros identificadores con única finalidad estadística. Puede cambiar sus preferencias o rechazar su uso pulsando en "más información" o en cualquier.</p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="allcards">
+      <h1 class="fptop">Featured Projects</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <h1>Image Classification using CNN</h1>
+              <br>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm">View Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <h1>Bengaluru House Price Prediction</h1>
+              <br>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm">View Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <h1>Face Detection using OpenCV</h1>
+              <br>
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm">View Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="blog" id="contactsection">
+
+      <div class="blogsection_title">
+        <h1>Blogs</h1>
+      </div>
+
+      <div class="blog_container_out">
+
+        <div class="blog_container_in">
+
+          <div class="featured_blog1">
+            <!-- <div class="blogimg"></div> -->
+            <img src="./Images/SOLogo.png" class="blogimg" alt="Logo">
+            <div class="blogcontent">
+              <div class="blog_head">Experience: A Day without StackOverflow</div> <br>
+              <div class="blog_text">StackOverflow has already changed the way we teach and learn computer programming...... <i><u><a href="Pages/StackoverflowPost.html">Read More</a></u></i> </div>
+            </div>
+          </div>
+          <div class="featured_blog2">
+            <div class="blogimg">
+              <img src="./Images/VSLogo.png" style="height: auto; width: -webkit-fill-available; margin: auto 0px;" alt="Logo">
+            </div>
+            <div class="blogcontent">
+              <div class="blog_head">5 Underrated VSCode Extensions</div> <br>
+              <div class="blog_text">VS Code is one of the most widely used code editor, which is a light weight software to help you..... <i><u><a href="Pages/VScodePost.html">Read More</a></u></i> </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="moreblogs"><button class="moreblogsbutton" style="vertical-align:middle"><span><a href="Pages/blogs.html">More Blogs</a></span></button></div>
+
+
+    </div>
+
+
+    <footer class="text-muted">
+      <div class="container" id="foot">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Gaurav Sekhri &copy; Copyright 2021 </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/holder.min.js"></script>
+    <script src="https://getbootstrap.com/docs/5.0/examples/checkout/form-validation.js"></script>
+  </body>
+</html>
